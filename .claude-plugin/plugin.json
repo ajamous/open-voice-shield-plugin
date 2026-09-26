@@ -1,0 +1,12 @@
+{
+  "$schema": "https://code.claude.com/schemas/plugin.json",
+  "name": "open-voice-shield",
+  "displayName": "Open Voice Shield",
+  "version": "1.0.0",
+  "description": "Fraud verdicts, route checks and caller-ID verification for every SIP call, operated by Claude: sign up, connect your switch, place test calls, read verdicts and transcripts, verify caller ID.",
+  "author": { "name": "TelecomsXChange", "email": "support@telecomsxchange.com", "url": "https://ovs.telecomsxchange.com" },
+  "homepage": "https://ovs.telecomsxchange.com/docs/agents",
+  "repository": "https://github.com/ajamous/open-voice-shield-plugin",
+  "license": "MIT",
+  "keywords": ["voip", "sip", "telecom", "fraud", "call-analysis", "caller-id", "cli-verification", "tcpa", "mcp"]
+}

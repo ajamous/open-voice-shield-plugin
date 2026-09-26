@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "open-voice-shield": {
+      "type": "http",
+      "url": "https://ovs.telecomsxchange.com/api/mcp"
+    }
+  }
+}

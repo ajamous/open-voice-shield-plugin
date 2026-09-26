@@ -1,0 +1,14 @@
+{
+  "name": "open-voice-shield",
+  "owner": { "name": "TelecomsXChange", "email": "support@telecomsxchange.com" },
+  "metadata": { "description": "Open Voice Shield for Claude: fraud verdicts, route checks and caller-ID verification on your SIP trunk." },
+  "plugins": [
+    {
+      "name": "open-voice-shield",
+      "source": "./",
+      "description": "Fraud verdicts, route checks and caller-ID verification for every SIP call, operated by Claude.",
+      "category": "productivity",
+      "homepage": "https://ovs.telecomsxchange.com/docs/agents"
+    }
+  ]
+}
