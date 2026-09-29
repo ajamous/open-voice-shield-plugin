@@ -2,8 +2,8 @@
   "$schema": "https://code.claude.com/schemas/plugin.json",
   "name": "open-voice-shield",
   "displayName": "Open Voice Shield",
-  "version": "1.0.1",
-  "description": "Fraud verdicts, route checks and caller-ID verification for every SIP call, operated by Claude: sign up, connect your switch, place test calls, read verdicts and transcripts, verify caller ID.",
+  "version": "1.1.0",
+  "description": "Fraud verdicts, route checks and caller-ID verification for every SIP call, operated by Claude: connect your switch, request test calls you confirm in the portal, read verdicts and transcripts, verify caller ID.",
   "author": {
     "name": "TelecomsXChange",
     "email": "support@telecomsxchange.com",

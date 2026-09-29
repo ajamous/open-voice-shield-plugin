@@ -6,7 +6,8 @@ description: Verify caller ID delivery on a route with Open Voice Shield - check
 # Verify caller ID
 
 A CLI check places a short call from one of the account's destinations, with the caller ID the
-person wants to prove, to a number the platform holds in the requested country. The answer is what
+person wants to prove, to a number the platform holds in the requested country. The call only ever
+reaches the platform's own verification numbers, never a third party. The answer is what
 that number saw: `match`, `modified` (format, prefix or digits changed), `withheld`, `missing` or
 `not_received`, with the call's timing and estimated audio quality.
 
@@ -20,6 +21,13 @@ that number saw: `match`, `modified` (format, prefix or digits changed), `withhe
    what changed (the sent and the received number side by side).
 4. For a recurring check with an alert on change, the person sets a schedule on the portal's CLI
    verification page.
+
+## Verified numbers and hosted numbers
+
+A CLI check is not a test call. A test call's caller ID must be one of the account's verified
+numbers (`list_verified_numbers`), which the person verifies in the portal: the platform calls the
+number and speaks a code they type in. A hosted number that passed its pointing test counts as
+verified too.
 
 ## Hosting a number
 
